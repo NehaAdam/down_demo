@@ -1,0 +1,12 @@
+<project name="psl project" default="all">
+
+	<target name="all" depends="init">
+		<echo>Welcome to ant script</echo>
+	</target>
+	<target name="init" depends="clean">
+		<echo>initialization</echo>
+	</target>
+	<target name="clean">
+		<echo message="Cleaning"></echo>
+	</target>
+</project>
